@@ -1,0 +1,83 @@
+.home-page {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px 40px;
+  background: linear-gradient(180deg, #fff5f7 0%, var(--cream) 60%);
+}
+
+.home-hero {
+  text-align: center;
+  padding: 40px 0 24px;
+}
+
+.home-flowers {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.home-names {
+  font-size: 2.6rem;
+  color: var(--rose-dark);
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.home-title {
+  font-size: 1.2rem;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.home-subtitle {
+  font-size: 1rem;
+  color: var(--text-light);
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
+.home-divider {
+  color: var(--gold);
+  font-size: 1rem;
+  letter-spacing: 8px;
+}
+
+.home-actions {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 8px;
+}
+
+.home-btn {
+  font-size: 1.05rem;
+  padding: 20px 24px;
+  border-radius: 18px;
+}
+
+.btn-icon {
+  font-size: 1.4rem;
+}
+
+.home-footer {
+  margin-top: 32px;
+  font-size: 0.85rem;
+  color: var(--text-light);
+  text-align: center;
+  font-style: italic;
+}
+
+@media (min-width: 600px) {
+  .home-names { font-size: 3.2rem; }
+}
