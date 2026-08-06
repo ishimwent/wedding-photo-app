@@ -64,7 +64,7 @@ export default function Upload() {
         guest_name: guestName.trim() || null,
         caption: caption.trim() || null,
         storage_path: storagePath,
-        status: 'pending',
+        status: 'approved',
       })
 
       if (dbError) {
