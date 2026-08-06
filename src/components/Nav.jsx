@@ -12,7 +12,7 @@ export default function Nav({ session }) {
 
   return (
     <nav className="nav">
-      <Link to="/" className="nav-brand">💍 Our Wedding</Link>
+      <Link to="/" className="nav-brand">💍 Teddy &amp; Oreste</Link>
       <div className="nav-links">
         <Link to="/gallery" className={`nav-link ${pathname === '/gallery' ? 'active' : ''}`}>Gallery</Link>
         {session ? (
