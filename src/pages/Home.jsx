@@ -8,7 +8,7 @@ export default function Home() {
     <div className="home-page">
       <div className="home-hero">
         <div className="home-flowers">🌸</div>
-        <h1 className="home-names">Sarah &amp; James</h1>
+        <h1 className="home-names">Teddy &amp; Oreste</h1>
         <p className="home-title">Welcome to Our Wedding ❤️</p>
         <p className="home-subtitle">"Help us capture our special day!"</p>
         <div className="home-divider">✦ ✦ ✦</div>
